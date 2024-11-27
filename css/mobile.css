@@ -1,0 +1,51 @@
+/* 480 - 320 */
+@media(max-width: 321px) {
+
+    /* header */
+    header {
+        padding-inline: 8px;
+    }
+
+    /* section 1 */
+    .main_section {
+        height: 320px;
+    }
+
+    /* section 2 */
+    .middle_section {
+        padding: 32px 0 20px;
+    }
+
+    /* catalog page */
+    .contact-section {
+        padding-inline: 8px;
+    }
+
+    /* contact us page */
+    .mainSection_contact {
+        padding-inline: 8px;
+    }
+
+    .formTitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .contactForm,
+    .inputsContainer {
+        row-gap: 24px;
+    }
+
+    /* Adjust the form inputs to stack vertically */
+    .inputsContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .inputsContainer input {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}

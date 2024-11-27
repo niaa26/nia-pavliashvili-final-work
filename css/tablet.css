@@ -1,0 +1,164 @@
+
+/* 768 - 481 */
+@media(max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 24px;
+    }
+
+    /* section 1 */
+    .main_section {
+        height: 480px;
+        padding-top: 32px;
+        width: 100%;
+        background-size: cover; /* Ensures background image covers the section */
+        background-position: center center; /* Centers the background image */
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    }
+
+    /* section 2 */
+    .mid_sec {
+        padding: 48px 0 24px 12px;
+        background-size: cover; /* Ensures background image covers the section */
+        background-position: center center; /* Centers the background image */
+    }
+
+    /* footer */
+    footer {
+        column-gap: 40px;
+    }
+
+    /* catalog page */
+    .catalog-section {
+        padding: 48px 24px;
+    }
+
+    .Card{
+        width: 100%;
+    }
+
+    .Card:nth-last-child(-n+5){
+        display: none;
+    }
+
+    /* contact us page */
+    .container_contact {
+        padding: 64px 24px;
+    }
+
+    .mainSection_contact{
+        padding: 16px;
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    .formSection_con,
+    .mapSection{
+        width: 100%;
+        row-gap: 24px;
+    }
+
+    iframe{
+        height: 200px;
+    }
+
+    .mapSectionContainer{
+        column-gap: 42px;
+    }
+}
+
+
+@media(max-width: 481px) {
+
+    /* header */
+    header {
+        padding: 28px 20px;
+    }
+
+    .guitar_icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_sec {
+        column-gap: 16px;
+    }
+
+    .header_butt {
+        width: 32px;
+        height: 32px;
+    }
+
+    .headerButtonIcon {
+        font-size: 10px;
+    }
+
+    .headerButtonCart {
+        font-size: 12px;
+    }
+
+    /* section 1 */
+    .main_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* section 2 */
+    .mid_sec {
+        padding: 32px 0 8px 20px;
+    }
+
+    .mid_sec-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .mid_sec-line {
+        width: 156px;
+        margin-bottom: 28px;
+    }
+
+    /* footer */
+    footer {
+        padding: 32px 0;
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+    }
+
+    .company-info,
+    .additional-info,
+    .contact-info {
+        align-items: center;
+    }
+
+    /* catalog page */
+    .catalog-section {
+        padding: 32px 20px;
+    }
+
+    .filterboxSpan {
+        display: none;
+    }
+
+    #sortBy {
+        color: transparent;
+        width: 36px;
+        background-position: center;
+    }
+
+    .catalog-bottom-section {
+        column-gap: 45px;
+    }
+
+    .catalog-button-span{
+        display: none;
+    }
+
+    /* contact us page */
+    .inputsContainer{
+        flex-direction: column;
+        row-gap: 36px;
+    }
+}
